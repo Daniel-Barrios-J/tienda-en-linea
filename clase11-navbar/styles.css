@@ -1,0 +1,111 @@
+:root {
+  --very-light-pink: #C7C7C7;
+  --white: #FFFFFF;
+  --black: #000000;
+  --text-input-field: #F7F7F7;
+  --dark: #232830;
+  --hopital-green: #ACD9B2;
+  --sm: 14px;
+  --md: 16px;
+  --lg: 18px;
+}
+
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Quicksand', sans-serif;
+}
+
+body nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 20px;
+  height: 60px;
+  border-bottom: 1px solid var(--very-light-pink);
+}
+
+body nav .menu {
+  display: none;
+}
+
+body nav .navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body nav .navbar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body nav .navbar a {
+  text-decoration: none;
+  color: var(--very-light-pink);
+  border: 1px solid var(--white);
+  padding: 8px;
+  border-radius: 8px;
+}
+
+body nav .navbar a:hover {
+  color: var(--hopital-green);
+  border: 1px solid var(--hopital-green);
+}
+
+body nav .navbar-left ul {
+  margin-left: 12px;
+}
+
+body nav .navbar-left .logo {
+  width: 100px;
+}
+
+body nav .navbar-right ul .navbar-email {
+  color: var(--very-light-pink);
+  font-size: var(--sm);
+  margin-right: 12px;
+}
+
+body nav .navbar-right ul .navbar-shopping-cart {
+  position: relative;
+}
+
+body nav .navbar-right ul .navbar-shopping-cart div {
+  width: 10px;
+  height: 10px;
+  background-color: var(--hopital-green);
+  border-radius: 50%;
+  font-size: 8px;
+  text-align: center;
+  font-weight: bold;
+  position: absolute;
+  top: -2px;
+  right: -1px;
+}
+
+@media (max-width: 640px) {
+  body nav .menu {
+    display: block;
+    width: 20px;
+  }
+  body nav .navbar-left ul {
+    display: none;
+  }
+  body nav .navbar-right .navbar-email {
+    display: none;
+  }
+}
+/*# sourceMappingURL=styles.css.map */

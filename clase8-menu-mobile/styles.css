@@ -1,0 +1,61 @@
+:root {
+  --very-light-pink: #C7C7C7;
+  --white: #FFFFFF;
+  --black: #000000;
+  --text-input-field: #F7F7F7;
+  --dark: #232830;
+  --hopital-green: #ACD9B2;
+  --sm: 14px;
+  --md: 16px;
+  --lg: 18px;
+}
+
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Quicksand', sans-serif;
+}
+
+body .mobile-menu {
+  padding: 24px;
+}
+
+body .mobile-menu ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 40px;
+}
+
+body .mobile-menu ul li {
+  margin-bottom: 20px;
+}
+
+body .mobile-menu ul li a {
+  text-decoration: none;
+  color: var(--black);
+  font-weight: bold;
+}
+
+body .mobile-menu ul li .email {
+  font-weight: 300;
+  color: var(--very-light-pink);
+  margin-bottom: 12px;
+}
+
+body .mobile-menu ul li .sign-out {
+  color: var(--hopital-green);
+  font-size: var(--sm);
+}
+
+body .mobile-menu .ul-1 {
+  border-bottom: 1px solid var(--very-light-pink);
+}
+
+body .mobile-menu ul:nth-last-child(1) {
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+}
+/*# sourceMappingURL=styles.css.map */
